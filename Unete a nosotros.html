@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta content='The burger palace' property='og:title'/>
+         <meta content='El palacio de las hamburguesas ' property='og:description'/>
+        <link rel="stylesheet" href="style.css" />
+        <style>a {text-decoration: none;} </style>
+        <link rel="icon" type="image/png" href="images/favicon.png" />>
+        <title>The Burger Palace</title>
+
+    </head>
+    
+   
+      	<body>
+      			<div id="fondo">
+        <div id="main_wrapper">
+            <header>
+                <div id="titulo">
+                	               
+                    <h1>The Burger Palace</h1>
+                    
+
+                    
+                </div>
+                
+                <nav >
+                    <ul >
+                        <li><a href="index.html" style="color: red">Home</a></li>
+                        <li><a href="carta.html" style="color: red">Carta</a>                  
+                        <li><a href="contactos.html" style="color: red">Reserva</a></li>
+                        <li><a href="ubicacion.html" style="color: red">Ubicación</a></li>
+                        <li><a href="Unete%20a%20nosotros.html" style="color: red">Unete a nosotros</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+            
+            
+            
+            <div id="banner_image">
+                <div id="banner_description">
+                    Una de las mejores hamburguesas,la hamburguesa pigma              
+                    <a target="_blank" href="images/Pigma.jpg" class="red_button"> <img src="images/small_arrow.png" alt="" /></a>
+                </div>
+            </div>
+            <div id="parteatras">
+            	<div style="padding-left: 30px" >
+            <section>
+                <article >
+                    <h1><b style="color: red">Unete a nosotros </b></h1>
+                    
+                    En The Burger Palace queremos cocinar las hamburguesas más ricas y ofrecer un servicio con actitud e ingenio, para así inspirar muchos momentos de felicidad entre nuestros invitados. Por ello buscamos personas que quieran formar parte de esta familia, superarse diariamente y que sean capaces de vivir y transmitir los valores y el buen rollo a todos los que nos visiten.
+                    <br>
+                    <br>
+
+                    Nuestra estructura ofrece un Plan de Carrera donde no solo crecerás a nivel profesional sino personal, en un ambiente donde priman nuestro propósito y esencia familiar.
+                    <br>
+                    <br>
+
+                    Hoy nuestra familia se compone de más de 1000 personas en New York, con cerca de 30 nacionalidades. El compromiso y la pasión por este proyecto nos unen. Demostramos que todo es posible haciendo las cosas bien.
+                    <br>
+                    <br>
+
+                    ¡Acompáñanos a seguir cocinando esta historia!
+                    <br>
+                    <br>
+                    
+                    
+                    
+                    
+                    <h4><b style="color:maroon">Si desea unirse a nuestro equipo de trabajo, rellene el siguiente formulario para que nos pongamos en contacto con usted</b></h4>
+                    
+                    <form>
+                        
+                    <h1>Unete</h1>                      
+                                                
+                    <input type="text" maxlength="20" placeholder="Nombre">
+                        
+                        <input type="text" maxlength="20" placeholder="Apellido">
+                        
+                        <input type="text" maxlength="30" placeholder="Direccion de correo">
+                        <input type="text" maxlength="20" placeholder="Telefono contacto">
+                        <textarea name="Experiencia" rows="6" cols=40 placeholder="Experiencia profesional"></textarea>
+                                  
+                                      
+                        <button text-aling="center"  type="submit">Enviar</button>
+                       
+                      </form> 
+                   
+                </article>
+
+                <aside div style="padding-left: 30px">
+                    <h1 style="color: coral">Contador de visitas</h1>
+                    <div id="sfc4lqblj8uag1dmgttbqqw633nrwdg2ent"></div><script type="text/javascript" src="https://counter5.wheredoyoucomefrom.ovh/private/counter.js?c=4lqblj8uag1dmgttbqqw633nrwdg2ent&down=async" async></script><br /><noscript><a ><img height="50" width="60" src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=4lqblj8uag1dmgttbqqw633nrwdg2ent" border="0"  /></a></noscript>
+                    
+                    <p><a target="_blank" href="https://es-es.facebook.com/goikogrill">
+                        <img height="30" width="30" src="images/facebook.png" alt="Facebook" />
+                        
+                        <a target="_blank" href="https://twitter.com/GoikoGrill?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <img height="30" width="30" src="images/twitter.png" alt="Twitter" />
+                        
+            <p></p>
+            <p>
+            </a>
+                    <table id="calendar" >
+	               <caption></caption>
+	           <thead>
+		              <tr>
+			          <th>Lun</th><th>Mar</th><th>Mie</th><th>Jue</th><th>Vie</th><th>Sab</th><th>Dom</th>
+                      </tr>
+	           </thead>
+	       <tbody>
+	       </tbody>
+                </table>
+            <script>
+                    var actual=new Date();
+                        function mostrarCalendario(year,month)
+                {
+	                    var now=new Date(year,month-1,1);
+                        var last=new Date(year,month,0);
+                        var primerDiaSemana=(now.getDay()==0)?7:now.getDay();
+                        var ultimoDiaMes=last.getDate();
+                        var dia=0;
+                        var resultado="<tr bgcolor='silver'>";
+                        var diaActual=0;
+                        console.log(ultimoDiaMes);
+ 
+                    var last_cell=primerDiaSemana+ultimoDiaMes;
+
+                    // hacemos un bucle hasta 42, que es el máximo de valores que puede
+                    // haber... 6 columnas de 7 dias
+                    for(var i=1;i<=42;i++)
+                    {
+                        if(i==primerDiaSemana)
+                        {
+                            // determinamos en que dia empieza
+                            dia=1;
+                        }
+                        if(i<primerDiaSemana || i>=last_cell)
+                        {
+                            // celda vacia
+                            resultado+="<td>&nbsp;</td>";
+                        }else{
+                            // mostramos el dia
+                            if(dia==actual.getDate() && month==actual.getMonth()+1 && year==actual.getFullYear())
+                                resultado+="<td class='hoy'>"+dia+"</td>";
+                            else
+                                resultado+="<td>"+dia+"</td>";
+                            dia++;
+                        }
+                        if(i%7==0)
+                        {
+                            if(dia>ultimoDiaMes)
+                                break;
+                            resultado+="</tr><tr>\n";
+                        }
+                    }
+                    resultado+="</tr>";
+
+                    var meses=Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+
+                    // Calculamos el siguiente mes y año
+                    nextMonth=month+1;
+                    nextYear=year;
+                    if(month+1>12)
+                    {
+                        nextMonth=1;
+                        nextYear=year+1;
+                    }
+
+                    // Calculamos el anterior mes y año
+                    prevMonth=month-1;
+                    prevYear=year;
+                    if(month-1<1)
+                    {
+                        prevMonth=12;
+                        prevYear=year-1;
+                    }
+
+                    document.getElementById("calendar").getElementsByTagName("caption")[0].innerHTML="<div>"+meses[month-1]+" / "+year+"</div><div><a onclick='mostrarCalendario("+prevYear+","+prevMonth+")'>&lt;</a> <a onclick='mostrarCalendario("+nextYear+","+nextMonth+")'>&gt;</a></div>";
+                    document.getElementById("calendar").getElementsByTagName("tbody")[0].innerHTML=resultado;
+                }
+
+                mostrarCalendario(actual.getFullYear(),actual.getMonth()+1);
+                        </script>
+                </aside>
+            </div>
+            </section>
+            </div>
+      		</div>
+            <footer>
+                
+                <div id="Hamburguesas">
+                    <h1>Top 4 hamburguesas</h1>
+                    <p>
+                    <p><img src="images/goiko-grill1.jpg" />
+                        <img src="images/goiko-grill2.jpg"  />
+                        <img src="images/goiko-grill3.jpg" />
+                        <img src="images/goiko-grill4.jpg"/></p>
+                    </p> 
+
+                </div>                
+            </footer>
+        </div>
+    </div>
+    </body>
+</html>
